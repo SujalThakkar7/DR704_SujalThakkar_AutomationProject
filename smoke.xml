@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke Suite">
+<listeners>
+<listener class-name="org.utilities.qa.ExtentReportListener"/>
+</listeners>
+<test name="Smoke Tests">
+<classes>
+<class name="org.tests.qa.ProductDetailsTest"/>
+<class name="org.runner.qa.CucumberSmokeRunner"/>
+</classes>
+</test>
+</suite>

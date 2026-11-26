@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+<listeners>
+<listener class-name="org.utilities.qa.ExtentReportListener"/>
+</listeners>
+<test name="Regression Tests">
+<classes>
+<class name="org.tests.qa.ProductSearchTest"/>
+<class name="org.tests.qa.ProductDetailsTest"/>
+<class name="org.tests.qa.ContactUsTest"/>
+<class name="org.tests.qa.CartTest"/>
+<class name="org.runner.qa.CucumberTestRunner"/>
+</classes>
+</test>
+</suite>
