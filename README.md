@@ -16,11 +16,17 @@ Technologies Used
 Project Structure
 
 \- `src/test/java` – Java test classes, page classes, utilities and step definitions
+
 \- `src/test/resources/features` – Cucumber feature files
+
 \- `src/test/resources/testdata` – Excel test data
+
 \- `smoke.xml` – Smoke test suite
+
 \- `regression.xml` – Regression test suite
+
 \- `pom.xml` – Maven dependencies and configuration
+
 \- `evidence/` – Test reports and screenshots
 
 How to Run
